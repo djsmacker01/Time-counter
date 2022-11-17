@@ -13,7 +13,7 @@ const value = document.querySelector('#value');
 buttons.forEach(function (button) {
   // console.log('iterate through the buttons', button)
   
-  //add event listeners
+  // add event listeners 
   button.addEventListener("click", function (event) {
     // console.log(event.currentTarget.classList);
     const styles = event.currentTarget.classList;
